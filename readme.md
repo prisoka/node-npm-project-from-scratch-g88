@@ -1,6 +1,13 @@
-# JavaScript Assessment
+# Starting a Project with Node
 
-Description_Here
+This repository is a chance for you to practice starting a project from scratch with Node and NPM.
+
+## Instructions
+
+- Create a new `package.json` file.
+- Install `mocha` and `chai` as developer dependencies.
+- Change the test script so that it runs `mocha`. You should now be able to run `npm test`.
+- Connect the `src/main.js` file and the `test/main.test.js` files so that the tests pass
 
 ## Setup
 
