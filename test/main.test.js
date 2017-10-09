@@ -1,4 +1,4 @@
-// Include the src/main.js file here and assign it to a `main` variable
+const main = require('../src/main.js')
 const expect = require('chai').expect
 
 describe('main', function () {
