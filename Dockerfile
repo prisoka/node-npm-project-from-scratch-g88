@@ -10,9 +10,6 @@ WORKDIR /app
 # Add to PATH
 ENV PATH /app/node_modules/.bin:$PATH
 
-# Add package.json from upstream
-ADD package.json /app
-
 # Add entire student fork (overwrites previously added package.json)
 ARG SUBMISSION_SUBFOLDER
 ADD $SUBMISSION_SUBFOLDER /app
