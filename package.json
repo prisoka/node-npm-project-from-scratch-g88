@@ -1,0 +1,26 @@
+{
+  "name": "npm-project-from-scratch",
+  "version": "1.0.0",
+  "description": "This repository is a chance for you to practice starting a project from scratch with Node and NPM.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prisoka/node-npm-project-from-scratch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prisoka/node-npm-project-from-scratch/issues"
+  },
+  "homepage": "https://github.com/prisoka/node-npm-project-from-scratch#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
