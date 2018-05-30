@@ -7,3 +7,8 @@ function randomColor (colorOptions) {
 }
 
 // Export both `colors` and `randomColor`
+
+module.exports = {
+  colors:colors,
+  randomColor: randomColor
+}
